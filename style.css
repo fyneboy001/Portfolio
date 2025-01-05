@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+body {
+  padding: 0px 130px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color o.3s;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+ul li {
+  padding-left: 30px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
+
+.icon {
+  height: 40px;
+  translate: 15px;
+  transform: translateY(-10px);
+}
+.first {
+  height: 250px;
+  width: 100%;
+  text-align: justify;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 50px;
+  background: linear-gradient(to left, #dd5789, #33d2ff, #9845e8);
+  background-clip: text;
+  color: transparent;
+  padding: 15px 0px;
+}
+.say {
+  display: flex;
+  margin-top: 30px;
+}
+.second {
+  height: 190vh;
+  width: 100%;
+  display: flex;
+  padding-top: 70px;
+  justify-content: space-between;
+}
+.experience {
+  height: 100px;
+  width: 82%;
+  line-height: 30px;
+}
+.selfbook {
+  display: flex;
+  justify-content: space-between;
+}
+.newyork {
+  color: #004e93;
+}
+.new {
+  margin-top: 30px;
+}
+.third {
+  height: 365vh;
+  width: 100%;
+  padding-top: 60px;
+}
+.feature {
+  margin-top: 35px;
+}
+.intense {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  line-height: 40px;
+}
+.cards {
+  height: 337vh;
+  width: 45%;
+}
+.image {
+  height: 300px;
+}
+.react {
+  padding: 20px 0px;
+}
+.git {
+  height: 40px;
+  width: 17%;
+}
+.giticon {
+  margin: 0px 15px;
+}
+.subthird {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.info {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact {
+  border: solid rgb(153, 148, 148);
+  height: 40px;
+  width: 23%;
+  align-content: center;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.email {
+  height: 20px;
+  transform: translateY(3px);
+}
+.con {
+  margin-bottom: 50px;
+}
+.mail {
+  padding-left: 20px;
+}
+.upwork {
+  height: 20px;
+  transform: translateY(6px);
+}
